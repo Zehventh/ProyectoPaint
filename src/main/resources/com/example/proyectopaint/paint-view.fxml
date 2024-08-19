@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.proyectopaint.PaintController">
+    <Canvas fx:id="canvas" width="600.0" height="400.0"
+            onMousePressed="#onMousePressed"
+            onMouseDragged="#onMouseDragged"
+            onMouseReleased="#onMouseReleased"
+    />
+</AnchorPane>
